@@ -26,8 +26,6 @@ object KeyedStateExample2 {
         //第一次或者或者状态变量lastTemp为空，定义赋值一个lastTemp
           (List.empty,Some(r.temperature))
         }
-
-    }
       .print()
 
     env.execute()
